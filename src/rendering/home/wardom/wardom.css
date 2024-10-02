@@ -1,0 +1,48 @@
+.details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.img_true{
+    padding-bottom: 20px;
+}
+.details_box{
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wardom_heading{
+    max-width: 440px;
+}
+.wardom_heading h3 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 40px;
+    color: #295061;
+    margin-bottom: 50px;
+}
+.details_disc h3{
+    color: #101010;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.details_disc p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.img_true img{
+    animation: venom_icon 2s ease-in-out infinite;
+}
+
+@keyframes venom_icon {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.2);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}

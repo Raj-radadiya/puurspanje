@@ -1,0 +1,11 @@
+.pro_img img{
+    height: 580px;
+    width: 100%;
+}
+.pro_img{
+    overflow: hidden;
+}
+.pro_img img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}

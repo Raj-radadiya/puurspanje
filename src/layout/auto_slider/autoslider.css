@@ -1,0 +1,39 @@
+.card_main{
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text_rating {
+    display: flex;
+    gap: 40px;
+}
+
+.text {
+    background-color: #0047F112;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.text h3 {
+    text-align: center;
+    padding-top: 10px;
+    color: #002BB7C5;
+    font-size: 20px;
+
+}
+.rating p{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.rating img{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    display: inline;
+}

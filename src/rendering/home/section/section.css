@@ -1,0 +1,24 @@
+.section_heading{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #C896651A;
+    padding: 60px 0;
+}
+.section_heading h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.section_heading p{
+    max-width: 442px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+.banner_border{
+    height: 24px;
+    background-color: #C89664;
+}
+.section_img img{
+    height: 900px;
+    object-fit: cover;
+}

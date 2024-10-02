@@ -1,0 +1,51 @@
+.card_desc h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 16px;
+}
+.card_desc {
+    padding: 16px 0 0;
+}
+.card_desc p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.card_link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 32px 0 0;
+}
+.card_link img {
+    height: 15px;
+    width: 15px;
+}
+.card_image img {
+    height: 230px;
+    border-radius: 10px;
+}
+.card_link a{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+.card_image{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card_image img:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+.card_desc h2:hover{
+    color: #70765d;
+    transition: 0.3s ease-in-out;
+}
+.card_desc p:hover{
+    color: rgb(99, 99, 8);
+}
+.card_link a:hover{
+    color: teal;
+    transition: 0.3s ease-in;
+}

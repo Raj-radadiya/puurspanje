@@ -1,0 +1,31 @@
+.specifition_card{
+    background-color: white;
+    margin: 0 20px;
+    padding: 32px;
+    border-radius: 10px;
+}
+.specifition_text p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.tick_img img{
+    padding-bottom: 10px;
+}
+.specifition_card {
+    animation: banner 2s ease-in-out infinite;
+}
+@keyframes banner {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.specification_main{
+    overflow: hidden;
+    border-radius: 10px;
+}

@@ -1,0 +1,61 @@
+.ontdek_card{
+    max-width: 295px;
+}
+
+.card_img{
+    width: 295px;
+}
+.card_img img {
+    height: 230px;
+    width: 100%;
+    border-radius: 10px;
+}
+.title_price a{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.title_price {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.spe {
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.bed{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.bed img {
+    height: 20px;
+}
+
+.spe_id{
+    display: flex;
+    justify-content: space-between;
+}
+.id{
+    color: #929292;
+}
+
+.card_img{
+    overflow: hidden;   
+    border-radius: 10px;
+}
+.card_img img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.card_disc:hover{
+    color: blue;
+}
+.ontdek_card:hover{
+    transition: 0.2s ease-in-out;
+}

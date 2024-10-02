@@ -1,0 +1,85 @@
+.all_links_main {
+    padding: 150px 0;
+}
+
+.link_head h3 {
+    font-size: 40px;
+    font-family: "Big Shoulders Display", sans-serif;
+    color: #295061;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.link_head{
+    padding-bottom: 50px;
+}
+.calida_heading{
+    width: 50%;
+}
+.calida_heading h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.calida_heading p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #313131;
+    width: 100%;
+}
+.calida{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+.calida_link{
+    width: 50%;
+}
+.link_div_1{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.left_link{
+    width: 50%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+.right_link{
+    width: 50%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+.grater img{
+    height: 15px;
+}
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.blanca_heading{
+    width: 50%;
+}
+.blanca{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+.blanca_link{
+    width: 50%;
+}
+.blanca_heading h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.blanca_heading p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #313131;
+    width: 100%;
+}

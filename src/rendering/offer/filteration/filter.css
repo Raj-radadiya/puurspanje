@@ -1,0 +1,120 @@
+.filter_main {
+    padding: 30px 0;
+}
+
+.filter_shadow {
+    margin: 0 50px;
+    padding: 0 20px;
+}
+
+.filteration {
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+    box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, .25), 0px 2px 20px -1px rgba(0, 0, 0, .06);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.buy_drop {
+    width: 30%;
+}
+
+.buy_drop input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px 7px;
+    border: 1px solid #929292;
+}
+
+.by_drop {
+    width: 10%;
+}
+
+.by_drop select {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px 7px;
+    border: 1px solid #929292;
+}
+
+.to_drop {
+    width: 15%;
+}
+
+.to_drop select {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px 7px;
+    border: 1px solid #929292;
+}
+
+.badroom_drop {
+    width: 10%;
+}
+
+.badroom_drop select {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px 7px;
+    border: 1px solid #929292;
+}
+
+.bathroom_dtrop {
+    width: 10%;
+}
+
+.bathroom_dtrop select {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px 7px;
+    border: 1px solid #929292;
+}
+
+.filter {
+    width: 10%;
+}
+
+.filter_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #929292;
+    border-radius: 10px;
+    padding: 10px 7px;
+}
+
+.filter {
+    width: 15%;
+}
+
+.save_drop {
+    width: 15%;
+}
+
+.save_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #929292;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+.save_btn img {
+    height: 20px;
+}
+
+.empty {
+    width: 5%;
+}
+.buy_drop input:hover{
+    outline:1px solid red;
+    border: none;
+}
+.buy_drop ::placeholder{
+    color: red;
+}
+.by_drop select:hover{
+    outline: 1px solid grey;
+}

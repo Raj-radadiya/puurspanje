@@ -1,0 +1,41 @@
+.exp_main {
+    background-color: #DEEFF7;
+    padding: 160px 0 90px;
+}
+
+.exp_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 50px;
+}
+
+.exp_heading h3 {
+    font-size: 40px;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    color: #295061;
+    font-weight: 800;
+}
+.exp_para p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.para{
+    padding-bottom: 30px;
+}
+.country_details_main{
+    display: flex;
+    gap: 24px;
+}
+.other_info{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(13, 13, 13, 1);
+}
+.other_info h3{
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+.other_info p{
+    font-size: 16px;
+}

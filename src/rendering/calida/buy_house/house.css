@@ -1,0 +1,46 @@
+.buy_main{
+    padding: 120px 0;
+    background-color: #EAF8FF;
+}
+.house_calida_heading{
+    /* width: 50%; */
+}
+.calida_property{
+    display: flex;
+    justify-content: space-between;
+}
+.house_calida_heading h2{
+    font-size:80px;
+    font-family: "Big Shoulders Display", sans-serif;
+    color: #033A4E80;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.house_calida_heading h3{
+    font-size:80px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 800;
+    color: #033A4E;
+    text-transform: uppercase;
+}
+.calida_disc{
+    width: 50%;
+}
+.calida_disc p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.calida_disc button{
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.buy_boder{
+    height: 30px;
+    background-color: rgba(91, 195, 243, 1);
+}

@@ -154,3 +154,6 @@
 .com_logo img{
     height: 25px;
 }
+.com_logo img:hover{
+    box-shadow: 0px 0px 8px 2px white;
+}

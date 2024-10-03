@@ -157,3 +157,6 @@
 .com_logo img:hover{
     box-shadow: 0px 0px 8px 2px white;
 }
+.com_logo img{
+    background-color: #929292;
+}
